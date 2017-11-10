@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wedding dress</title>
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+     <script LANGUAGE="JavaScript">
+<!-- Begin
+var winprops = "height=500,width=500,location=no,scrollbars=no,"
+             + "menubars=no,toolbars=no,resizable=yes";
+var visMnu = "";
+var actMnu, url;
+//
+function menuHandler(actMnu,url)
+{
+   popup = window.open("http://"+url,"MenuPopup",winprops);
+   hideMenu(actMnu);
+   popup.focus()
+}//
+
+function flipMenu(actMnu)
+{
+   if (visMnu == "")
+      showMenu(actMnu);
+   else
+   {
+      if (visMnu == actMnu)
+         hideMenu(actMnu);
+      else
+      {
+         hideMenu(visMnu);
+         showMenu(actMnu);
+      }
+   }
+}
+function showMenu(actMnu)
+{
+  
+   actMnu.style.visibility = "visible";
+   visMnu = actMnu;
+}
+function hideMenu(actMnu)
+{//
+
+  
+   actMnu.style.visibility = "hidden";
+   visMnu = "";
+}
+//  End -->
+</script>
+<table name="NaviBar" border="0">
+
+<tr  style="cursor:default;font-size:18px;font-family:monospace;font-weight: bold;padding-top: 22px;color: aliceblue;position: absolute;z-index: 999999;left: 20px;">
+<td align="center" onMousedown="flipMenu(document.all.Mnu1)">品牌直达</td>
+</tr>
+<tr>
+<td valign="top">
+<table id="Mnu1" width="100%" style="cursor:default; visibility:hidden;position: absolute;z-index:999999;top: 50px;">
+<tr><td onClick="menuHandler(Mnu1,'www.CsrCode.cn/html/txdm/')"> <a href="http://www.CsrCode.cn/html/txdm/">Vera Wang</a> </td></tr>
+<tr><td onClick="menuHandler(Mnu1,'www.CsrCode.cn')"> <a href="http://www.CsrCode.cn">Oscar de la Renta</a> </td></tr>
+<tr><td onClick="menuHandler(Mnu1,'www.33567.cn')"> <a href="http://www.33567.cn">Chanel</a> </td></tr>
+<tr><td onClick="menuHandler(Mnu1,'www.33567.cn')"> <a href="http://www.33567.cn">Chloé</a> </td></tr>
+<tr><td onClick="menuHandler(Mnu1,'Links.CsrCode.Cn')"> <a href="http://Links.CsrCode.Cn/">Dior</a> </td></tr>
+<tr><td onClick="menuHandler(Mnu1,'Links.CsrCode.Cn')"> <a href="http://Links.CsrCode.Cn/">Elie Saab</a> </td></tr>
+<tr><td onClick="menuHandler(Mnu1,'Links.CsrCode.Cn')"> <a href="http://Links.CsrCode.Cn/">Valentino</a> </td></tr>
+<tr><td onClick="menuHandler(Mnu1,'Links.CsrCode.Cn')"> <a href="http://Links.CsrCode.Cn/">Lee Seung Jin</a> </td></tr>
+<tr><td onClick="menuHandler(Mnu1,'Links.CsrCode.Cn')"> <a href="http://Links.CsrCode.Cn/">桂由美</a> </td></tr>
+</table>
+</td>
+</tr>
+</table>
+    <header id="header">
+          <div class="logo"><img src="" alt=""></div>
+          <ul>
+              
+              <li><a href="">品牌故事</a></li>
+              <li><a href="">名人同款</a></li>
+              <li><a href="">最新资讯</a></li>
+              </ul>
+         <span><a href="">登录</a>/<a href="">注册</a></span>
+       </header>
+     <div class="banner">
+          <img src="img/banner.jpg" alt="">
+     </div>
+       
+</body>
+</html>

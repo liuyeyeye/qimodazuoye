@@ -1,0 +1,44 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.banner img{
+  width: 100%;
+  height: 100%;
+  margin-top: -60px;
+}
+ul li{
+   display: inline;
+   position:relative;
+    font-size: 18px;
+   color:aliceblue;
+    font-family:monospace;
+    font-weight: bold;
+    margin: -100px;
+    padding-left: 120px
+}
+span{
+    color: aliceblue;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+span a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: monospace;
+}
+li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 200px;
+}
+td a{
+    text-decoration: none;
+    color: aliceblue;
+    opacity: 0.7;
+    padding-left: 20px;
+    font-family: monospace;
+    font-size: 17px;
+}
