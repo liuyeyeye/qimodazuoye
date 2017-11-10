@@ -1,6 +1,7 @@
 *{
    margin: 0px;
    padding: 0px;
+    text-align: left;
 }
 .banner img{
   width: 100%;
@@ -41,4 +42,11 @@ td a{
     padding-left: 20px;
     font-family: monospace;
     font-size: 17px;
+}
+.logo img{
+    position: absolute;
+    height: 70%;
+    top: 130px;
+    left: -70px;
+    transform: rotate(-7deg);
 }
